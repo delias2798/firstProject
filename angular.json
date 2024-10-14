@@ -52,7 +52,7 @@
                 }
               ],
               "outputHashing": "all",
-              "baseHref": "/firstProject/" 
+              "baseHref": "/first-project/" 
             },
             "development": {
               "optimization": false,
