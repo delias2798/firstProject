@@ -89,7 +89,9 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/assets/Furniture.glb",
+              "public/favicon.ico"
             ],
             "styles": [
               "src/styles.css"
