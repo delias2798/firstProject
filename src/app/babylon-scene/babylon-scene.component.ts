@@ -50,7 +50,7 @@ export class BabylonSceneComponent implements OnInit, AfterViewInit {
     if (!this.scene) return;
 
     // Cargar el modelo
-    SceneLoader.Append('/assets/', 'Furniture.glb', this.scene, (scene) => {
+    SceneLoader.Append('assets/', 'Furniture.glb', this.scene, (scene) => {
       console.log('Modelo cargado');
     }, null, (scene, message, exception) => {
       console.error('Error al cargar el modelo:', message, exception);
